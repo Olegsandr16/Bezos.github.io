@@ -1,5 +1,5 @@
 *{
-	// border: 1px red solid;
+ border: 1px red solid;
 }
 
 body{
@@ -9,51 +9,38 @@ body{
 .header{
 	width:100%;
 	height:107px;
-	margin:0 auto;
-	padding-top:1px;
+	border: 1px blue solid;
 }
-.menu{
-	margin-left:20px;
-    float:left;
+ul {
+	 border: 1px green solid;
+	position:none;
 }
-#li1{
-	width: 110px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 28px;
-
-
+#biography{
+	width:100px
+	
 }
-#first{
-	// border: 1px blue solid;
-
-}
-.menu2{
+ul.menu2{
 	display:none;
-	background-color:C4C4C4;
-
-}
-.menu1{
-	margin-top:-63px;
-	float:right;
-	width:580px;
-	position:absolute;
-	right:20%;
-}
-div.header>ul.menu1>li>ul.menu2>li{
-	width:100px;
-
-}
-ul.menu1:hover>li>ul{
-	display:block;
-
+	width:60px;
+	position:relative;
+	right:62px;
 }
 li{
-	list-style-type: none;
-
+	margin-left:20px
+	
 }
+li{
+	display:block;
+	float:left;
+}
+.header ul li:hover ul {
+	display: block; 
+}
+
+.header ul li ul:hover {
+	display: block; 
+}
+
 
 a{
 	text-decoration: none;
@@ -126,9 +113,7 @@ p.bezos{
 	font-size: 30px;
 	line-height: 30	px;
 }
-div.header>ul>li{
-	display:inline;
-}
+
 img.strategys1{
 	width:300px;
 	position:relative;
@@ -178,13 +163,8 @@ div>p#strategys2{
 }
 div.basement2{
 	position:relative;
-	left:60%;
-	bottom:108px;
-}
-img.vk{
-	position:absolute;
-	bottom:38px;
-	right:42%;
+	left:
+	
 }
 .container{
 	width:60%;
