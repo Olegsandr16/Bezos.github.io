@@ -22,17 +22,19 @@ li{
 }
 
 #biography{
-	width:100px
+	width:100px;
+}
+ul.menu2>li{
+		background-color:#C4C4C4;
 	
 }
-
 ul.menu2{
 	display:none;
 	width:60px;
 	position:relative;
 	right:60px;
-	background-color:#C4C4C4;
 
+	
 }
 
 div.header li{
@@ -82,6 +84,8 @@ p.line1{
 	border-bottom:5px #C4C4C4 solid;
 	margin:0 auto;
 	width:100%;
+	position:relative;
+	bottom:120px;
 }
 
 .line4{
@@ -89,14 +93,15 @@ p.line1{
 	margin:0 auto;
 	width:100%;
 	position:relative;
-	bottom:30px;
+	bottom:150px;
 }
 
 .line5{
 	border-bottom:5px #C4C4C4 solid;
 	margin:0 auto;
 	width:100%;
-	position:
+	position:relative;
+	bottom:100px;
 }
 
 #img_bezos{
@@ -107,6 +112,7 @@ p.line1{
 
 img.bezos{
 	width:420px;
+
 }
 
 .menu{
@@ -119,9 +125,9 @@ img.bezos{
 }
 
 p.bezos{
-	position:absolute;
-	left:22%;
-	top:300px;
+	position:relative;
+	left:10%;
+	bottom:220px;
 	width:400px;
 	font-family: Roboto;
 	font-style: normal;
@@ -133,13 +139,13 @@ p.bezos{
 img.strategys1{
 	width:300px;
 	position:relative;
-	bottom:27px;
+	bottom:150px;
 }
 
 img.strategys2{
 	width:300px;
 	position:relative;
-	bottom:30px;
+	bottom:153px;
 }
 
 div.strat{
@@ -164,7 +170,7 @@ div.strategys2{
 div>p#strategys1{
 	position:relative;
 	left:20px;
-	
+	bottom:125px;
 	color:#FF9F9F;
 	font-family: Roboto;
 	font-style: normal;
@@ -174,8 +180,9 @@ div>p#strategys1{
 }
 
 div>p#strategys2{
-		position:relative;
+	position:relative;
 	left:20px;
+	bottom:119px;
 	color:#FF9F9F;
 	font-family: Roboto;
 	font-style: normal;
@@ -188,13 +195,13 @@ div>p#strategys2{
 	margin-left:10%;
 	float:left;
 	position:relative;
-	bottom:55px;
+	bottom:170px;
 }
 
 .basement2{
 	margin-left:60%;
 	position:relative;
-	bottom:37px;
+	bottom:150px;
 
 }
 
@@ -215,13 +222,22 @@ div.basement{
 }
 
 
-.link1{
-	background-image:url(Инст.png);
-    background-repeat: no-repeat;
+.link1 {
+	background-image:url(inst.png);
+	background-size:16px;
+	background-repeat:no-repeat;
     padding-left: 22px;
+
 }
-.link2{
+.link2 {
 	background-image:url(vk.png);
-    background-repeat: no-repeat;
-    padding-left: 22px;
+	background-size:16px;
+	background-repeat:no-repeat;
+    padding-left: 20px;
+}
+.link3 {
+	background-image:url(mail.png);
+	background-size:16px;
+	background-repeat:no-repeat;
+    padding-left: 20px;
 }
