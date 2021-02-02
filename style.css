@@ -23,16 +23,6 @@ li{
 	list-style-type: none;
 }
 
-#biography{
-	width:100px;
-}
-
-ul.menu2{
-	display:none;
-	width:60px;
-	position:relative;
-	right:60px;
-}
 
 div.header li{
 	display:block;
