@@ -1,3 +1,17 @@
+img {
+	display:none;
+}
+.slides {
+    width: 100%;
+    height: 400px;
+}
+.block{
+	display: block;
+    object-fit: cover;
+    width: 70%;
+    height: 100%;
+	margin-left:20%;
+}
 *{
   // border: 1px blue solid;
 }
@@ -124,12 +138,14 @@ p.bezos{
 }
 
 img.strategys1{
+	display:block;
 	width:300px;
 	position:relative;
 	bottom:150px;
 }
 
 img.strategys2{
+		display:block;
 	width:300px;
 	position:relative;
 	bottom:153px;
