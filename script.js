@@ -1,11 +1,8 @@
-let btnRight = document.querySelector(".btnRight");
-
 let slides = document.querySelectorAll("img");
-
 let i = 0;
 
-btnRight.addEventListener("click", function () {
-	++i
+function sayHi() {
+  ++i
     if (i >= slides.length) {
         slides[i-1].classList.remove("block");
         i = 0;
@@ -14,4 +11,7 @@ btnRight.addEventListener("click", function () {
         slides[i-1].classList.remove("block");
         slides[i].classList.add("block");
     }
-})
+}
+
+let timerId = setInterval(() => sayHi(), 2500);
+
