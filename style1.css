@@ -12,11 +12,10 @@ body{
 }
 
 div.header>ul{
-    position:absolute;
-    left:45%;
-    min-width:700px;
+    position:relative;
+    right:5%;
 	padding-top:50px;
-	margin-right:70px;
+	margin-right:10px;
 	float:right;
 
 }
@@ -76,7 +75,7 @@ p.line1{
 	z-index:-1;
 }
 
-.line3, .line7{
+.line3{
 	border-bottom:5px #C4C4C4 solid;
 	margin:0 auto;
 	width:100%;
@@ -101,28 +100,35 @@ p.line1{
 	border-bottom:5px #C4C4C4 solid;
 	margin:0 auto;
 	width:100%;
-	margin-top:180px;
+	margin-top:170px;
+}
+
+.line7{
+	border-bottom:5px #C4C4C4 solid;
+	margin:0 auto;
+	width:100%;
+	margin-top:110px;
 }
 
 .line8{
 	border-bottom:5px #C4C4C4 solid;
 	margin:0 auto;
 	width:100%;
-	margin-top:30px;
+	margin-top:20px;
 }
 
 .line9{
 	border-bottom:5px #C4C4C4 solid;
 	margin:0 auto;
 	width:100%;
-	margin-top:50px;
+	margin-top:70px;
 }
 
 .line10{
 	border-bottom:5px #C4C4C4 solid;
 	margin:0 auto;
 	width:100%;
-	margin-top:55px;
+	margin-top:60px;
 }
 
 .line11{
@@ -136,14 +142,14 @@ p.line1{
 	border-bottom:5px #C4C4C4 solid;
 	margin:0 auto;
 	width:100%;
-	margin-top:45px;
+	margin-top:70px;
 }
 
 .line13{
 	border-bottom:5px #C4C4C4 solid;
 	margin:0 auto;
 	width:100%;
-	margin-top:45px;
+	margin-top:35px;
 }
 
 .line14{
@@ -298,6 +304,6 @@ div.basement ul li {
 .container{
 	width:60%;
 	margin:0 auto;
-
-	min-width:1000px;
+	min-width:1200px;
+	max-width:1200px;
 }
