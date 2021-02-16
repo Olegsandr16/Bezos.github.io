@@ -22,7 +22,14 @@ div.header>ul{
 
 li{
 	list-style-type: none;
+	border-bottom:10px solid #C4C4C4;
 }
+
+li:hover{
+	border-bottom:10px solid red;
+	transition: border-bottom-color 2s linear;
+}
+
 
 div.header li{
 	display:block;
@@ -64,6 +71,7 @@ p.line1{
 	color: #000000;
 	margin-left:40px;
 	float:left;
+	margin-top:36px;
 }
 
 .line2{
@@ -80,6 +88,18 @@ p.line1{
 	margin:0 auto;
 	width:100%;
 }
+.line10{
+	border-bottom:4px red solid;
+	margin:0 auto;
+	width:150px;
+}
+
+.line1{
+	border-bottom:3px #C4C4C4 solid;
+	margin:0 auto;
+	width:100%;
+}
+
 
 .text1{
 	margin-left:20px;
@@ -94,6 +114,11 @@ p.line1{
 .text3{
 	margin-right:20px;
 	margin-left:10px;
+}
+
+.text4{
+	margin-right:20px;
+	margin-left:20px;
 }
 
 img.firth{
@@ -174,8 +199,28 @@ img.two, img.four{
 	margin-right:20px;
 	
 }
+h2{
+	text-align:center;
+	
+}
+img#firth{
+	width:900px;
+	margin:0 auto;
+	display:block;
+}
 
-
+img#second{
+	width:300px;
+	float:right;
+	margin-left:20px;
+	margin-right:10px;
+}
+img#third{
+	width:300px;
+	float:left;
+	margin-left:10px;
+	margin-right:20px;
+}
 .basement1{
 	margin-left:10%;
 	float:left;
