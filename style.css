@@ -1,3 +1,12 @@
+div.header li{
+	list-style-type: none;
+	border-bottom:5px solid #C4C4C4;
+}
+
+div.header li:hover{
+	border-bottom:5px solid red;
+	transition: border-bottom-color 0.7s linear;
+}
 img {
 	display:none;
 }
@@ -162,7 +171,7 @@ img.strategys1{
 }
 
 img.strategys2{
-		display:block;
+	display:block;
 	width:300px;
 	position:relative;
 	bottom:153px;

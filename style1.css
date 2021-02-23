@@ -20,14 +20,17 @@ div.header>ul{
 
 }
 
-li{
-	list-style-type: none;
-	border-bottom:10px solid #C4C4C4;
+div.header li{
+	border-bottom:5px solid #C4C4C4;
 }
 
-li:hover{
-	border-bottom:10px solid red;
-	transition: border-bottom-color 2s linear;
+li{
+	list-style-type: none;
+}
+
+div.header li:hover{
+	border-bottom:5px solid red;
+	transition: border-bottom-color 0.9s linear;
 }
 
 
