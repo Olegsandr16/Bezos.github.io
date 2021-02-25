@@ -128,13 +128,14 @@ p.line1{
 	margin:0 auto;
 	width:100%;
 	position:relative;
-	bottom:100px;
+	bottom:40px;
 }
 
 #img_bezos{
 	margin:0 auto;
 	width:420px;
 	padding-left:300px;
+	
 }
 
 img.bezos{
@@ -240,7 +241,7 @@ div.basement ul li {
 }
 
 div.basement{
-	height:70px;
+	height:1px;
 
 }
 
