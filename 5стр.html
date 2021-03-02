@@ -3,8 +3,10 @@
 		<title>Джефф Безос</title>
 		<link rel='stylesheet' href='style1.css'>
 		<link rel='stylesheet' href='style2.css'>
+		<script src="script2.js"></script>
 	</head>
 	<body>
+	
 		<div class="container">
 			<div class='header'>
 			<p class='line1'><a href="Сайт.html"><b>Джефф Безос</b></a></p>
@@ -16,12 +18,21 @@
 				</ul>
 			</div>
 			<div class="line2"></div>
+			<div class="pane" id="time_pane">
+				
+			</div>
 			<div id="visualization">
 				СЛАЙДЕР
 				<div class="vis-wrapper">
-					<div id="visualization-filters">
-						<div class="vis-segment" style="width: 260px;">
-						
+				fdgdggd
+					<div class="vis-segment">
+					fdfd
+						<div id="visualization-container" class="vis-timeline">
+							<div class="vis-segment">
+								<div class="vis-segment-year">
+								1000
+								</div>
+								<div class="vis-segment-item-wrapper">
 						</div>
 					</div>
 				</div>
@@ -30,7 +41,7 @@
 				</div>
 				<div id="visualization-timeline">
 				<div class="slidecontainer">
-					<input type="range" min="1" max="3000" value="50" class="slider" id="myRange">
+					<input type="range" min="1" max="3000" value="1" class="slider" id="myRange" onchange="changeInput(this.value)">
 				</div>
 				</div>			
 			</div>
