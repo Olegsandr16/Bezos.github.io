@@ -94,6 +94,8 @@ p.line1{
 	border-bottom:5px #C4C4C4 solid;
 	margin:0 auto;
 	width:100%;
+	position:relative;
+	top:10px;
 }
 .line10{
 	border-bottom:4px red solid;
@@ -239,7 +241,6 @@ img#third{
 .basement2{
 	margin-left:60%;
 	position:relative;
-	bottom:10px;
 	margin-top:30px;
 	margin-bottom:20px;
 }
@@ -283,7 +284,7 @@ div#visualization{
 	
 }
 .slidecontainer {
-width: 90%;
+width: 100%;
 margin:0 auto;
 }
 
@@ -330,6 +331,8 @@ margin:0 auto;
 #time_pane{
 	position:relative;
 	width:1000%;
+	right:0px;
+	transition:right 1s ease-out 0s;
 }
 
 .window{
